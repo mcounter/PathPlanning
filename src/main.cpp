@@ -239,7 +239,7 @@ int main() {
 					planner.process(car_x, car_y, car_s, car_d, car_yaw, car_speed,
 						previous_path_x, previous_path_y, end_path_s, end_path_d,
 						sensor_fusion, speed_limit,
-						next_y_vals, next_y_vals);
+						next_x_vals, next_y_vals);
 
 					// TODO: define a path made up of (x,y) points that the car will visit sequentially every .02 seconds
 					msgJson["next_x"] = next_x_vals;
